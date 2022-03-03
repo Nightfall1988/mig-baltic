@@ -12,4 +12,5 @@
 1. Please use "http" instead of "https"
 2. Make a <i>composer install</i> command
 3. Make <i>npm install</i>
-4. Start the server with <i>php artisan serve</i>
+4. Run migrations for the database "migbaltic" with <i>php artisan migrate</i>
+5. Start the server with <i>php artisan serve</i>
