@@ -1,0 +1,93 @@
+body {
+    background-color: #ADD8E6;
+    font-size: 20px;
+}
+
+.header-section {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    padding: 0 2rem
+}
+.product-list, th, td {
+    border: 1px solid black;
+    padding: 0 2rem;
+    font-size: 20px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1rem 4rem;
+    box-shadow: 10px 5px 5px rgb(188, 193, 201);
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+form {
+    padding: 0 4rem;
+}
+
+input {
+    border: 2px solid #2525fd;
+    border-radius: 5px;
+    height: 40px;
+    font-size: large;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+table {
+    background-color: #fff;
+}
+svg {
+    display: none;
+    visibility: hidden;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.error-displayed {
+    color: red;
+    margin-bottom: 1rem;
+    font-size: 16px;
+}
+
+nav {
+    text-align: center;
+    margin-top: 1rem;
+    line-height: 0.5rem;
+    font-size: 20px;
+}
+
+.submit-bttn {
+    margin: 0 auto;
+    width: 140px;
+    height: 40px;
+    background-color: #2525fd;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 24px;
+    margin-top: 1rem;
+}
+
+.submit-bttn:hover {
+    background-color: #191970	;
+    transition: 0.3s;
+}
